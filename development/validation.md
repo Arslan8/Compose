@@ -6,6 +6,22 @@ A replacement that compiles is an important first step. It is not sufficient evi
 
 For signal interfaces, verify that every promised output is defined and that inputs retain their declared meaning. For physical connectors, verify a complete, well-posed assembled model. Compatibility checks must address dimensions, units, coordinate frames, reference points, signs, and command semantics.
 
+## Verify the output consistency guarantee
+
+For each intended replacement, enumerate the outputs promised by the shared contract and identify how each implementation defines them. Review definitions across the agreed operating modes and initialization conditions, not only the outputs read by one demonstration.
+
+Verification should establish that:
+
+1. Every promised output is provided, including those unused by the current consumer.
+2. Units, dimensions, frames, signs, reference points, and declared timing retain their meaning.
+3. Simplified outputs follow documented approximations rather than missing-value placeholders.
+4. Initialization and mode transitions preserve defined output behavior under the contract's assumptions.
+5. Any specified validity or failure behavior is implemented consistently.
+
+Use representative consumers that read all promised outputs to expose dependencies hidden by an application that uses only a subset. Such tests provide evidence; they do not by themselves prove correctness for every possible execution.
+
+Numerical agreement is checked only against an explicitly specified tolerance or accuracy requirement. Output consistency alone does not promise equal results across fidelity levels. These checks are requirements for the framework's validation process; the current documentation does not claim an implemented universal checker.
+
 ## Check the approximation
 
 Different fidelity levels are expected to produce different results. The question is whether those differences are consistent with the assumptions each implementation declares.

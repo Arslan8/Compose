@@ -8,6 +8,10 @@ The contract is semantic as well as structural. Equal port names, dimensions, or
 
 There is one stable contract per interchangeable component family, rather than one universal interface for all components.
 
+## Required output behavior
+
+The [output consistency guarantee](outputs.md) is mandatory at every interchangeable boundary: each implementation supplies all promised outputs with the agreed semantics, whether or not the current consumer uses them. Inputs may be unused internally under explicit approximations. Outputs may differ numerically across fidelity levels, but cannot disappear or change meaning.
+
 ## What the contract contains
 
 | Contract element | Required meaning |
