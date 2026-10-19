@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Compose
+  structure:
+    - type: space
+      key: space-compose
+      title: Compose
+      path: compose
+      default: true
+      content:
+        directory: ./
