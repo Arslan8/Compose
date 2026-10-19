@@ -10,7 +10,7 @@ This book develops the CP-Compose design using drone propulsion as a running exa
 
 [Part I: Foundations](foundations/composition.md) introduces composition, stable contracts, and the different obligations of inputs and outputs.
 
-[Part II: Architecture](architecture/modelica.md) explains the Modelica realization, subsystem boundaries, and assembly responsibilities.
+[Part II: Architecture](architecture/modelica.md) explains the Modelica realization, subsystem boundaries, assembly responsibilities, and vehicle families such as quadcopters and rovers.
 
 [Part III: Development](development/validation.md) describes validation, the starting point in FIRE Modelica, and the implementation roadmap.
 

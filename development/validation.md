@@ -1,4 +1,4 @@
-# 7. Validating interchangeability
+# 8. Validating interchangeability
 
 A replacement that compiles is an important first step. It is not sufficient evidence that the replacement preserves the meaning of the assembly or runs in the intended execution environment.
 

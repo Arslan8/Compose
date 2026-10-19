@@ -13,8 +13,9 @@
 * [4. Expressing contracts in Modelica](architecture/modelica.md)
 * [5. Choosing component boundaries](architecture/boundaries.md)
 * [6. Assembling a system](architecture/assembly.md)
+* [7. Vehicles](architecture/vehicles.md)
 
 ## Part III: Development
 
-* [7. Validating interchangeability](development/validation.md)
-* [8. Starting point and roadmap](development/roadmap.md)
+* [8. Validating interchangeability](development/validation.md)
+* [9. Starting point and roadmap](development/roadmap.md)
