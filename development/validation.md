@@ -1,6 +1,10 @@
-# 9. Validating interchangeability
+# Validating interchangeability
 
 A replacement that compiles is an important first step. It is not sufficient evidence that the replacement preserves the meaning of the assembly or runs in the intended execution environment.
+
+## Check the contract description
+
+Require the [standard descriptive table](../foundations/contracts.md) on every contract reference page. Verify identical row names and order, no blank cells, complete promised-output lists, and explicit None or Not yet specified values. Check that evidence links identify a revision and distinguish inspected source from executed validation. This documentation check does not prove model conformance.
 
 ## Check the boundary
 

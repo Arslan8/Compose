@@ -1,4 +1,4 @@
-# 4. Expressing contracts in Modelica
+# Expressing contracts in Modelica
 
 The intended Modelica pattern uses shared partial models for component-family interfaces, with replaceable components, constraining classes, and redeclarations for selecting implementations. Language-level compatibility is necessary, but does not by itself validate units, command semantics, modeling assumptions, or physical correctness.
 

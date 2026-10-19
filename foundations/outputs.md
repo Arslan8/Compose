@@ -1,4 +1,4 @@
-# 3. Input freedom and output completeness
+# Input freedom and output completeness
 
 ## The output consistency guarantee
 
@@ -54,3 +54,7 @@ Output completeness describes whether promised quantities are provided. It does 
 The rule applies directly to signal interfaces. Physical connectors need the broader notion of a complete, well-posed boundary model, developed in the next chapter.
 
 For a Modelica physical connector, this guarantee does not mean assigning voltage and current independently. The implementation contributes the equations needed for a complete, well-posed boundary model; connected components jointly determine the terminal variables. Signal diagnostics exposed alongside that connector remain subject to the output consistency guarantee.
+
+## Reading a concrete contract
+
+Every [contract reference page](../reference/README.md) uses the same descriptive table. Read Required outputs together with Assumptions and limits, Timing, and Output guarantee. The [rotor table](../reference/rotor.md), for example, includes shaft load torque as well as the hub force and moment.

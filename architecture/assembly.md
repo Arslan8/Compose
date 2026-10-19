@@ -1,4 +1,4 @@
-# 6. Assembling a system
+# Assembling a system
 
 The intended framework separates:
 

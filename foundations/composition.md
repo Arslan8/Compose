@@ -1,4 +1,4 @@
-# 1. Modeling by composition
+# Modeling by composition
 
 Building a drone begins with choosing parts: a frame, motors, electronic speed controllers, rotors, and sensors. Modeling one should support the same kind of composition. Each component should have its own model, and the system should emerge from connecting those models through explicit interfaces.
 

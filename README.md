@@ -6,13 +6,17 @@ Building a drone begins with choosing parts. Modeling one should support the sam
 
 This book develops the CP-Compose design using drone propulsion as a running example. It explains what component contracts promise, how Modelica can express replaceable implementations, and what evidence is needed to demonstrate interchangeability.
 
-## Reading the book
+## Find information
 
-[Part I: Foundations](foundations/composition.md) introduces composition, stable contracts, and the different obligations of inputs and outputs.
-
-[Part II: Architecture](architecture/modelica.md) explains the Modelica realization, subsystem boundaries, assembly responsibilities, and vehicle families such as quadcopters and rovers, and electrical systems.
-
-[Part III: Development](development/validation.md) describes validation, the starting point in FIRE Modelica, and the implementation roadmap.
+| Topic | Start here |
+| --- | --- |
+| Why composition and stable interfaces matter | [Design foundations](foundations/composition.md) |
+| Contract format and mandatory output behavior | [Contract rules](foundations/contracts.md) and [output guarantee](foundations/outputs.md) |
+| How components become subsystems and vehicles | [Composition architecture](architecture/assembly.md) |
+| Electrical components, motors, and power electronics | [Electrical systems](architecture/electrical.md) |
+| A particular vehicle and its support status | [Vehicle overview](architecture/vehicles.md), with one page per type |
+| Exact documented inputs, outputs, assumptions, and ownership | [Contract reference](reference/README.md) |
+| Evidence, limitations, and planned work | [Validation](development/validation.md) and [roadmap](development/roadmap.md) |
 
 ## Design status
 

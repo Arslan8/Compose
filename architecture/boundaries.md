@@ -1,4 +1,4 @@
-# 5. Choosing component boundaries
+# Choosing component boundaries
 
 A change in fidelity must be distinguished from a change in the physical interaction boundary.
 

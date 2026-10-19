@@ -1,4 +1,4 @@
-# 8. Electrical Systems
+# Electrical Systems
 
 Electrical components determine how energy reaches an actuator and how actuator loads affect the supply. FIRE models these interactions at several levels, from a voltage-dependent speed approximation to a three-phase switching drive. Understanding their boundaries is essential to composing them correctly.
 
@@ -26,6 +26,10 @@ The [MSL electrical package documentation](https://doc.modelica.org/Modelica%204
 MSL's [analog interfaces](https://doc.modelica.org/Modelica%204.0.0/Resources/helpDymola/Modelica_Electrical_Analog_Interfaces.html) provide pins and shared partial models. A pin carries voltage and current, with current positive into the component. `PositivePin` and `NegativePin` distinguish terminal roles visually; they are not signal input and output types. `OnePort` describes a two-terminal component with equal and opposite terminal currents.
 
 These interfaces support composition through physical equations. They do not require every model in the electrical domain to have identical ports. MSL also supports conditional thermal ports, so it is not a blanket guarantee that changing model options preserves every connection. CP-Compose must establish stable boundaries for the particular families it intends to make interchangeable.
+
+## Contract reference
+
+The standard tables for this domain are [SeriesRL](../reference/series-rl.md), [three-phase ESC](../reference/three-phase-esc.md), [three-phase motor](../reference/three-phase-motor.md), and [shared DC supply](../reference/dc-link.md). The signal-only [speed-command](../reference/speed-motor.md) and [voltage-to-speed](../reference/voltage-motor.md) boundaries are documented separately. The sections below explain their composition; the reference pages define the documented boundary consistently.
 
 ## FIRE's electrical organization
 

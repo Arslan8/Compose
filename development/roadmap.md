@@ -1,4 +1,4 @@
-# 10. Starting point and roadmap
+# Starting point and roadmap
 
 The [FIRE Modelica models](https://github.com/mhcho1994/FIRE_Modelica_Models) provide the starting point for this design. Their source is maintained separately and is not included in this repository.
 
@@ -18,7 +18,7 @@ Additional physical models, such as battery state of charge, richer aerodynamics
 
 ## Next milestone
 
-Prioritize the static-to-wind-dependent rotor replacement described in [Chapter 9](validation.md). Define the family boundary, implement both variants, select each in the same vehicle, and record the results for each execution path.
+Prioritize the static-to-wind-dependent rotor replacement described in [Validating interchangeability](validation.md). Define the family boundary, implement both variants, select each in the same vehicle, and record the results for each execution path.
 
 The decisive evidence is that a new implementation can be introduced without changing the composer's wiring logic. This directly tests the central architectural claim.
 
