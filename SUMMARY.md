@@ -14,8 +14,9 @@
 * [5. Choosing component boundaries](architecture/boundaries.md)
 * [6. Assembling a system](architecture/assembly.md)
 * [7. Vehicles](architecture/vehicles.md)
+* [8. Electrical Systems](architecture/electrical.md)
 
 ## Part III: Development
 
-* [8. Validating interchangeability](development/validation.md)
-* [9. Starting point and roadmap](development/roadmap.md)
+* [9. Validating interchangeability](development/validation.md)
+* [10. Starting point and roadmap](development/roadmap.md)
